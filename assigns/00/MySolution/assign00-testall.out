@@ -1,0 +1,37 @@
+$ sh testall.sh
+Standard ML of New Jersey (32-bit) v110.96 [built: Fri Dec 13 15:22:22 2019]
+- [opening ./../MySolution/assign00-01.sml]
+val fact = fn : int -> int
+val find = fn : int -> int
+val inc = fn : int -> int
+val N = 13 : int
+val it = () : unit
+= Assign00-01-test passed!
+
+Standard ML of New Jersey (32-bit) v110.96 [built: Fri Dec 13 15:22:22 2019]
+- [opening ./../MySolution/assign00-02.sml]
+[opening ../assign00-lib.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[library $SMLNJ-BASIS/(basis.cm):basis-common.cm is stable]
+[autoloading done]
+val ord = fn : char -> int
+val chr = fn : int -> char
+val str = fn : char -> string
+val strlen = fn : string -> int
+val strcat = fn : string * string -> string
+val strsub = fn : string * int -> char
+val it = () : unit
+val it = () : unit
+= Assign00-04-test passed!
+
+Standard ML of New Jersey (32-bit) v110.96 [built: Fri Dec 13 15:22:22 2019]
+- [opening ./../MySolution/assign00-05.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[library $SMLNJ-BASIS/(basis.cm):basis-common.cm is stable]
+[autoloading done]
+val getCh = fn : string * int -> string
+val stringrev = fn : string -> string
+val it = () : unit
+= Assign00-05-test passed!
